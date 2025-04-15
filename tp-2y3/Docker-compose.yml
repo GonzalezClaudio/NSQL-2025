@@ -1,0 +1,36 @@
+version: "3"
+services:
+  backend:
+    build: ./backend
+    container_name: 'tp2y3_backend_flask'
+    command: sh -c 'python app.py'
+    ports:
+      - '5000:5000'
+    volumes:
+      - ./backend:/backend
+    depends_on:
+      - redis
+
+  redis:
+    container_name: 'tp2y3_redis'
+    image: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data  # 🔁 volumen para persistir los datos
+
+  frontend:
+    build: ./frontend
+    container_name: 'tp2y3_frontend_react'
+    command: sh -c 'npm install && npm start'
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./frontend:/frontend
+    depends_on:
+      - backend
+    stdin_open: true
+    tty: true
+
+volumes:
+  redis_data:  # 🔁 definición del volumen persistente
