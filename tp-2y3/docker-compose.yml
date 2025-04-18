@@ -16,6 +16,9 @@ services:
     image: redis
     ports:
       - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: ["redis-server", "--appendonly", "yes"]
 
   frontend:
     build: ./frontend
@@ -29,3 +32,6 @@ services:
       - backend
     stdin_open: true
     tty: true
+
+volumes:
+  redis-data:

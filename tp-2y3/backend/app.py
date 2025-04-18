@@ -42,7 +42,10 @@ def inicializar_capitulos():
         connection.set(f"capitulo:{cap['id']}", json.dumps(cap))
 
 # Inicializamos los capítulos si no están ya en Redis (esto solo debe hacerse una vez)
-inicializar_capitulos()
+# Inicializamos los capítulos solo si no están cargados aún en Redis
+if not connection.exists("capitulo:1"):
+    inicializar_capitulos()
+
 
 @app.route('/')
 def home():
@@ -119,5 +122,5 @@ def cancelar_reserva(id):
         return jsonify({"message": "Capítulo no encontrado"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=True, host="backend")
 
