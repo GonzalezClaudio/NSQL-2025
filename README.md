@@ -38,7 +38,7 @@ pip install redis
 docker compose up --build
 
 
-🗺️ TP3 - Turismo Geo Redis
+## 🗺️ TP3 - Turismo Geo Redis
 Este proyecto consiste en una aplicación web que permite:
 
 Agregar lugares turísticos clasificados por grupos.
@@ -47,14 +47,14 @@ Buscar lugares cercanos dentro de 5 km a partir de un punto fijo seleccionado.
 
 Calcular la distancia en km entre el punto fijo y un lugar seleccionado.
 
-⚙️ Tecnologías utilizadas
+⚙️ ** Tecnologías utilizadas **
 Frontend: React
 
 Backend: FastAPI (Python)
 
 Base de datos: Redis (clave-valor)
 
-🚀 Ejecución del programa
+** 🚀 Ejecución del programa **
 Asegurate de tener Docker y Docker Compose instalados.
 
 1. Clonar el repositorio (si no lo hiciste antes)
@@ -63,7 +63,7 @@ git clone https://github.com/GonzalezClaudio/NSQL-2025.git
 cd NSQL-2025/tp3-turismo-geo-redis
 3. Ejecutar con Docker Compose
 docker compose up --build
-🧪 Ejemplo de uso
+**🧪 Ejemplo de uso**
 Seleccionás un grupo como "farmacias".
 
 Elegís un punto fijo, por ejemplo, "Punto A".
