@@ -1,0 +1,93 @@
+[
+    {
+      "nombre": "7 colinas",
+      "grupo": "cervecerias",
+      "lat": 40.7150,
+      "lon": -74.0020
+    },
+    {
+      "nombre": "lagash",
+      "grupo": "cervecerias",
+      "lat": 40.7135,
+      "lon": -74.0100
+    },
+    {
+      "nombre": "citra",
+      "grupo": "cervecerias",
+      "lat": 40.7808,
+      "lon": -73.9772
+    },
+    {
+      "nombre": "FCYT",
+      "grupo": "universidades",
+      "lat": 40.7110,
+      "lon": -74.0045
+    },
+    {
+      "nombre": "UNER",
+      "grupo": "universidades",
+      "lat": 40.7162,
+      "lon": -74.0011
+    },
+    {
+      "nombre": "UCU",
+      "grupo": "universidades",
+      "lat": 40.7650,
+      "lon": -73.9700
+    },
+    {
+      "nombre": "MITRE",
+      "grupo": "farmacias",
+      "lat": 34.0500,
+      "lon": -118.2450
+    },
+    {
+      "nombre": "OESTE",
+      "grupo": "farmacias",
+      "lat": 34.0530,
+      "lon": -118.2400
+    },
+    {
+      "nombre": "ALBA",
+      "grupo": "farmacias",
+      "lat": 34.1000,
+      "lon": -118.3300
+    },
+    {
+      "nombre": "Emergency ",
+      "grupo": "emergencias",
+      "lat": 34.0510,
+      "lon": -118.2430
+    },
+    {
+      "nombre": "alerta",
+      "grupo": "emergencias",
+      "lat": 34.0540,
+      "lon": -118.2460
+    },
+    {
+      "nombre": "Unimedica",
+      "grupo": "emergencias",
+      "lat": 34.0300,
+      "lon": -118.4900
+    },
+    {
+      "nombre": "DIA S.R.L",
+      "grupo": "supermercados",
+      "lat": 41.8800,
+      "lon": -87.6280
+    },
+    {
+      "nombre": "Martin",
+      "grupo": "supermercados",
+      "lat": 41.8790,
+      "lon": -87.6240
+    },
+    {
+      "nombre": "Riccio",
+      "grupo": "supermercados",
+      "lat": 41.9500,
+      "lon": -87.6500
+    }
+  ]
+  

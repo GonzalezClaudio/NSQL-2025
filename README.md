@@ -33,8 +33,33 @@ cd tp-2y3
 
 docker compose up --build
 
+------------------------------------------------------------------------------------
+
+# Trabajo Practico 3 - TP3-turismo-geo-redis
+
+Este proyecto cosiste en una apllicacion web que permite:
+- Agregar lugares turisticos clasificados por grupos.
+- Buscar lugares cercanos dentro de 5 km, apartir de un punto fijo seleccionado.
+- Calcula la dictancia en km entre el punto fijo seleccionado y el lugar que seleccionemos,.
+
+La app esta dividida en dos partes:
+
+- **Frontend**: React
+- **Backend**: Desarrollado con Python + FastAPI,    maneja la logica y almacenamiento.
+- **Base de datos**: Redis (clave-valor)
 
 
 
+3. Ejecutá el entorno con Docker Compose:
 
+cd tp3-turismo-geo-redis
+docker compose up --build
 
+🧪 Ejemplo de uso
+Seleccionás un grupo como "farmacias".
+
+Elegís un punto fijo, por ejemplo, "Punto A".
+
+La app lista las farmacias cercanas a ese punto.
+
+Hacés clic en una para calcular la distancia.
