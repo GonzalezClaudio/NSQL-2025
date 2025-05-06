@@ -1,60 +1,80 @@
-# NSQL-2025
-# TP2 y TP3 - Sistema de Alquiler con Redis + Flask + React
+# 📦 NSQL-2025
 
-Este proyecto es parte de los trabajos prácticos 2 y 3. Se trata de una aplicación web que permite gestionar el alquiler de los capitulos de todas las temporadas de the Mandalorian. 
-Genera una lista con los capitulos donde se puede reservar una pelicula, en caso
-de que no se confirme el pago despues de 4 min vuelve al estado de disponible.
+## TP2 y TP3 - Sistema de Alquiler con Redis + Flask + React
 
+Este proyecto es parte de los **trabajos prácticos 2 y 3**. Se trata de una aplicación web que permite **gestionar el alquiler de los capítulos de todas las temporadas de *The Mandalorian***.
 
-- **Frontend**: React
-- **Backend**: Flask (Python)
+🛠️ **Características**:
+
+- Lista todos los capítulos disponibles para alquiler.
+- Permite reservar capítulos.
+- Si no se confirma el pago en 4 minutos, el capítulo vuelve al estado de *disponible*.
+
+---
+
+### ⚙️ Tecnologías utilizadas
+
+- **Frontend**: React  
+- **Backend**: Flask (Python)  
 - **Base de datos**: Redis (clave-valor)
 
+---
 
-## Ejecucion del programa!!!
+### 🚀 Ejecución del programa
 
 Asegurate de tener **Docker** y **Docker Compose** instalados.
 
-1. Cloná el repositorio:
+#### 1. Clonar el repositorio
 
 ```bash
-git https://github.com/GonzalezClaudio/NSQL-2025.git
-
-
-2. Creaamos entorno virtual y lo abrimos
-
+git clone https://github.com/GonzalezClaudio/NSQL-2025.git
+cd NSQL-2025/tp-2y3
+2. Crear entorno virtual (opcional si no usás Docker)
+bash
+Copiar
+Editar
 python3 -m venv env
 source env/bin/activate
 pip install redis
-
-cd tp-2y3
-
-3. Ejecutá el entorno con Docker Compose:
-
+3. Ejecutar con Docker Compose
+bash
+Copiar
+Editar
 docker compose up --build
+🗺️ TP3 - Turismo Geo Redis
+Este proyecto consiste en una aplicación web que permite:
 
-------------------------------------------------------------------------------------
+Agregar lugares turísticos clasificados por grupos.
 
-# Trabajo Practico 3 - TP3-turismo-geo-redis
+Buscar lugares cercanos dentro de 5 km a partir de un punto fijo seleccionado.
 
-Este proyecto cosiste en una apllicacion web que permite:
-- Agregar lugares turisticos clasificados por grupos.
-- Buscar lugares cercanos dentro de 5 km, apartir de un punto fijo seleccionado.
-- Calcula la dictancia en km entre el punto fijo seleccionado y el lugar que seleccionemos,.
+Calcular la distancia en km entre el punto fijo y un lugar seleccionado.
 
-La app esta dividida en dos partes:
+⚙️ Tecnologías utilizadas
+Frontend: React
 
-- **Frontend**: React
-- **Backend**: Desarrollado con Python + FastAPI,    maneja la logica y almacenamiento.
-- **Base de datos**: Redis (clave-valor)
+Backend: FastAPI (Python)
 
+Base de datos: Redis (clave-valor)
 
+🚀 Ejecución del programa
+Asegurate de tener Docker y Docker Compose instalados.
 
-3. Ejecutá el entorno con Docker Compose:
-
-cd tp3-turismo-geo-redis
+1. Clonar el repositorio (si no lo hiciste antes)
+bash
+Copiar
+Editar
+git clone https://github.com/GonzalezClaudio/NSQL-2025.git
+2. Ir a la carpeta del TP3
+bash
+Copiar
+Editar
+cd NSQL-2025/tp3-turismo-geo-redis
+3. Ejecutar con Docker Compose
+bash
+Copiar
+Editar
 docker compose up --build
-
 🧪 Ejemplo de uso
 Seleccionás un grupo como "farmacias".
 
