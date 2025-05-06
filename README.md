@@ -29,45 +29,71 @@ Asegurate de tener **Docker** y **Docker Compose** instalados.
 ```bash
 git clone https://github.com/GonzalezClaudio/NSQL-2025.git
 cd NSQL-2025/tp-2y3
-2. Crear entorno virtual (opcional si no usás Docker)
+```
 
+#### 2. Crear entorno virtual (opcional si no usás Docker)
+
+```bash
 python3 -m venv env
 source env/bin/activate
 pip install redis
-3. Ejecutar con Docker Compose
-docker compose up --build
+```
 
+#### 3. Ejecutar con Docker Compose
+
+```bash
+docker compose up --build
+```
+
+---
 
 ## 🗺️ TP3 - Turismo Geo Redis
+
 Este proyecto consiste en una aplicación web que permite:
 
-Agregar lugares turísticos clasificados por grupos.
+- Agregar **lugares turísticos** clasificados por grupos.
+- Buscar lugares cercanos dentro de **5 km** a partir de un **punto fijo** seleccionado.
+- Calcular la **distancia en km** entre el punto fijo y un lugar seleccionado.
 
-Buscar lugares cercanos dentro de 5 km a partir de un punto fijo seleccionado.
+---
 
-Calcular la distancia en km entre el punto fijo y un lugar seleccionado.
+### ⚙️ Tecnologías utilizadas
 
-⚙️ ** Tecnologías utilizadas **
-Frontend: React
+- **Frontend**: React  
+- **Backend**: FastAPI (Python)  
+- **Base de datos**: Redis (clave-valor)
 
-Backend: FastAPI (Python)
+---
 
-Base de datos: Redis (clave-valor)
+### 🚀 Ejecución del programa
 
-** 🚀 Ejecución del programa **
-Asegurate de tener Docker y Docker Compose instalados.
+Asegurate de tener **Docker** y **Docker Compose** instalados.
 
-1. Clonar el repositorio (si no lo hiciste antes)
+#### 1. Clonar el repositorio (si no lo hiciste antes)
+
+```bash
 git clone https://github.com/GonzalezClaudio/NSQL-2025.git
-2. Ir a la carpeta del TP3
+```
+
+#### 2. Ir a la carpeta del TP3
+
+```bash
 cd NSQL-2025/tp3-turismo-geo-redis
-3. Ejecutar con Docker Compose
+```
+
+#### 3. Ejecutar con Docker Compose
+
+```bash
 docker compose up --build
-**🧪 Ejemplo de uso**
-Seleccionás un grupo como "farmacias".
+```
 
-Elegís un punto fijo, por ejemplo, "Punto A".
+---
 
-La app lista las farmacias cercanas a ese punto.
+### 🧪 Ejemplo de uso
 
-Hacés clic en una para calcular la distancia.
+1. Seleccionás un grupo como **"farmacias"**.  
+2. Elegís un punto fijo, por ejemplo, **"Punto A"**.  
+3. La app lista las farmacias cercanas a ese punto.  
+4. Hacés clic en una para calcular la distancia.
+
+---
