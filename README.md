@@ -30,17 +30,14 @@ Asegurate de tener **Docker** y **Docker Compose** instalados.
 git clone https://github.com/GonzalezClaudio/NSQL-2025.git
 cd NSQL-2025/tp-2y3
 2. Crear entorno virtual (opcional si no usás Docker)
-bash
-Copiar
-Editar
+
 python3 -m venv env
 source env/bin/activate
 pip install redis
 3. Ejecutar con Docker Compose
-bash
-Copiar
-Editar
 docker compose up --build
+
+
 🗺️ TP3 - Turismo Geo Redis
 Este proyecto consiste en una aplicación web que permite:
 
@@ -61,19 +58,10 @@ Base de datos: Redis (clave-valor)
 Asegurate de tener Docker y Docker Compose instalados.
 
 1. Clonar el repositorio (si no lo hiciste antes)
-bash
-Copiar
-Editar
 git clone https://github.com/GonzalezClaudio/NSQL-2025.git
 2. Ir a la carpeta del TP3
-bash
-Copiar
-Editar
 cd NSQL-2025/tp3-turismo-geo-redis
 3. Ejecutar con Docker Compose
-bash
-Copiar
-Editar
 docker compose up --build
 🧪 Ejemplo de uso
 Seleccionás un grupo como "farmacias".
