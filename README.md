@@ -83,3 +83,50 @@ Elegís un punto fijo, por ejemplo, "Punto A".
 La app lista las farmacias cercanas a ese punto.
 
 Hacés clic en una para calcular la distancia.
+
+# 🦸‍♂️ TP5 - SuperHeroes MongoDB
+
+Este proyecto consiste en una aplicación web que permite:
+
+- Mostrar una lista de superhéroes cargados desde una base de datos.
+- Buscar superhéroes por nombre presionando la tecla Enter.
+- Visualizar detalles de cada superhéroe en formato de tarjeta (card).
+
+---
+
+## ⚙️ Tecnologías utilizadas
+
+- **Frontend:** React  
+- **Backend:** FastAPI (Python)  
+- **Base de datos:** MongoDB (NoSQL)
+
+---
+
+## 🚀 Ejecución del programa
+
+Asegurate de tener **Docker** y **Docker Compose** instalados.
+
+1. **Clonar el repositorio (si no lo hiciste antes)**
+
+```bash
+git clone https://github.com/GonzalezClaudio/NSQL-2025.git
+Ir a la carpeta del TP5
+
+bash
+Copiar
+Editar
+cd NSQL-2025/tp5-superheroes-mongodb
+Ejecutar con Docker Compose
+
+bash
+Copiar
+Editar
+docker compose up --build
+🧪 Ejemplo de uso
+Se carga la aplicación y se listan todos los superhéroes disponibles.
+
+En el campo de búsqueda, escribís el nombre del superhéroe y presionás Enter.
+
+Se muestran únicamente los superhéroes cuyo nombre coincide con la búsqueda.
+
+Si no se encuentra ninguno, se muestra un mensaje indicándolo.
