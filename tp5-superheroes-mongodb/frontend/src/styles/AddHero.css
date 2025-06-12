@@ -1,0 +1,81 @@
+.add-hero-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-hero-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .add-hero-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .add-hero-container label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .add-hero-container input[type="text"],
+  .add-hero-container input[type="number"],
+  .add-hero-container input[type="file"],
+  .add-hero-container textarea,
+  .add-hero-container select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .add-hero-container textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .add-hero-container button {
+    width: fit-content;
+    align-self: flex-start;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-hero-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mensaje-exito {
+    position: fixed;
+    top: 30%; /* Ajustá esto según lo alto que lo quieras */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    z-index: 1000; /* Para que quede por encima de otros elementos */
+    animation: fadein 0.5s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  @keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

@@ -1,0 +1,1111 @@
+[
+    {
+      "nombre": "Aquaman",
+      "nombre_real": "Arthur Curry",
+      "anio_aparicion": 1941,
+      "casa": "DC",
+      "biografia": "Aquaman es el gobernante de la Atlántida y protector de los océanos de la Tierra. Es un híbrido entre humano y atlante, lo que le otorga habilidades sobrehumanas como fuerza, velocidad y resistencia mejoradas. También posee la capacidad de comunicarse telepáticamente con la vida marina y es un miembro fundador de la Liga de la Justicia.",
+      "equipamiento": [
+        "Tridente de Poseidón",
+        "Armadura atlante",
+        "Capacidad de adaptación acuática",
+        "Telepatía marina"
+      ],
+      "logo": "aquaman_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/aquaman_1.png",
+        "static/carousel/aquaman_2.png",
+        "static/carousel/aquaman_3.png"
+      ],
+      "cantidad_imagenes": 3,
+      "aliados": [
+        "Mera",
+        "Liga de la Justicia",
+        "Aqualad"
+      ],
+      "enemigos": [
+        "Black Manta",
+        "Amo del Océano",
+        "Lex Luthor"
+      ]
+    },
+    {
+      "nombre": "Batman",
+      "nombre_real": "Bruce Wayne",
+      "anio_aparicion": 1939,
+      "casa": "DC",
+      "biografia": "Batman es el vigilante enmascarado de Gotham City, conocido por su inteligencia, habilidades de combate y tecnología avanzada. No tiene poderes sobrenaturales, pero su entrenamiento y recursos lo convierten en uno de los héroes más temidos y respetados.",
+      "equipamiento": [
+        "Batimóvil",
+        "Batarangs",
+        "Traje reforzado",
+        "Sistema de vigilancia"
+      ],
+      "logo": "batman_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/batman_1.png",
+        "static/carousel/batman_2.png"
+      ],
+      "cantidad_imagenes": 2,
+      "aliados": [
+        "Robin",
+        "Alfred Pennyworth",
+        "Comisionado Gordon"
+      ],
+      "enemigos": [
+        "Joker",
+        "Dos Caras",
+        "Enigma"
+      ]
+    },
+    {
+      "nombre": "Superman",
+      "nombre_real": "Clark Kent",
+      "anio_aparicion": 1938,
+      "casa": "DC",
+      "biografia": "Superman es un alienígena del planeta Krypton con habilidades sobrehumanas como súper fuerza, vuelo, visión de calor y súper velocidad. Es conocido como el símbolo de esperanza y justicia.",
+      "equipamiento": [],
+      "logo": "superman_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/superman_1.png",
+        "static/carousel/superman_2.png",
+        "static/carousel/superman_3.png"
+      ],
+      "cantidad_imagenes": 3,
+      "aliados": [
+        "Lois Lane",
+        "Liga de la Justicia",
+        "Jimmy Olsen"
+      ],
+      "enemigos": [
+        "Lex Luthor",
+        "General Zod",
+        "Doomsday"
+      ]
+    },
+    {
+      "nombre": "Wonder Woman",
+      "nombre_real": "Diana Prince",
+      "anio_aparicion": 1941,
+      "casa": "DC",
+      "biografia": "Wonder Woman es una princesa amazona con fuerza sobrehumana, habilidades de combate y objetos mágicos como el lazo de la verdad y los brazaletes indestructibles. Defiende la justicia y la paz en el mundo.",
+      "equipamiento": [
+        "Lazo de la verdad",
+        "Brazaletes indestructibles",
+        "Tiara",
+        "Escudo"
+      ],
+      "logo": "wonderwoman_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/wonderwoman_1.png",
+        "static/carousel/wonderwoman_2.png"
+      ],
+      "cantidad_imagenes": 2,
+      "aliados": [
+        "Liga de la Justicia",
+        "Steve Trevor",
+        "Cheetah"
+      ],
+      "enemigos": [
+        "Ares",
+        "Circe",
+        "Cheetah"
+      ]
+    },
+    {
+      "nombre": "Flash",
+      "nombre_real": "Barry Allen",
+      "anio_aparicion": 1956,
+      "casa": "DC",
+      "biografia": "Flash es el hombre más rápido del mundo, capaz de moverse a velocidades increíbles gracias a la fuerza de la velocidad. Utiliza sus habilidades para proteger Central City y combatir el crimen.",
+      "equipamiento": [],
+      "logo": "flash_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/flash_1.png",
+        "static/carousel/flash_2.png"
+      ],
+      "cantidad_imagenes": 2,
+      "aliados": [
+        "Liga de la Justicia",
+        "Kid Flash",
+        "Caitlin Snow"
+      ],
+      "enemigos": [
+        "Reverse Flash",
+        "Captain Cold",
+        "Gorilla Grodd"
+      ]
+    },
+    {
+      "nombre": "Green Lantern",
+      "nombre_real": "Hal Jordan",
+      "anio_aparicion": 1959,
+      "casa": "DC",
+      "biografia": "Green Lantern posee un anillo de poder que le permite crear cualquier objeto con la fuerza de su voluntad. Es miembro de la fuerza policial intergaláctica conocida como los Green Lantern Corps.",
+      "equipamiento": [
+        "Anillo de poder"
+      ],
+      "logo": "greenlantern_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/greenlantern_1.png"
+      ],
+      "cantidad_imagenes": 1,
+      "aliados": [
+        "Liga de la Justicia",
+        "Sinestro",
+        "John Stewart"
+      ],
+      "enemigos": [
+        "Sinestro",
+        "Parallax",
+        "Atrocitus"
+      ]
+    },
+    {
+      "nombre": "Cyborg",
+      "nombre_real": "Victor Stone",
+      "anio_aparicion": 1980,
+      "casa": "DC",
+      "biografia": "Cyborg es un héroe mitad humano, mitad máquina con fuerza sobrehumana, habilidades tecnológicas avanzadas y la capacidad de conectarse con cualquier sistema informático.",
+      "equipamiento": [
+        "Armas integradas",
+        "Interfaz cibernética"
+      ],
+      "logo": "cyborg_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/cyborg_1.png",
+        "static/carousel/cyborg_2.png"
+      ],
+      "cantidad_imagenes": 2,
+      "aliados": [
+        "Liga de la Justicia",
+        "Beast Boy",
+        "Raven"
+      ],
+      "enemigos": [
+        "Vandal Savage",
+        "Grid",
+        "Black Manta"
+      ]
+    },
+    {
+      "nombre": "Spider-Man",
+      "nombre_real": "Peter Parker",
+      "anio_aparicion": 1962,
+      "casa": "Marvel",
+      "biografia": "Spider-Man es un joven con habilidades arácnidas, como fuerza, agilidad, y la capacidad de trepar paredes, tras ser picado por una araña radiactiva. Protege Nueva York de múltiples amenazas.",
+      "equipamiento": [
+        "Sentido arácnido",
+        "Telarañas",
+        "Traje avanzado"
+      ],
+      "logo": "spiderman_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/spiderman_1.png",
+        "static/carousel/spiderman_2.png"
+      ],
+      "cantidad_imagenes": 2,
+      "aliados": [
+        "Mary Jane Watson",
+        "Avengers",
+        "Black Cat"
+      ],
+      "enemigos": [
+        "Duende Verde",
+        "Doctor Octopus",
+        "Venom"
+      ]
+    },
+    {
+      "nombre": "Iron Man",
+      "nombre_real": "Tony Stark",
+      "anio_aparicion": 1963,
+      "casa": "Marvel",
+      "biografia": "Iron Man es un genio multimillonario que usa una armadura avanzada para combatir el crimen y proteger el mundo. Es uno de los fundadores de los Avengers.",
+      "equipamiento": [
+        "Armadura de alta tecnología",
+        "Repulsores",
+        "Misiles inteligentes"
+      ],
+      "logo": "ironman_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/ironman_1.png",
+        "static/carousel/ironman_2.png"
+      ],
+      "cantidad_imagenes": 2,
+      "aliados": [
+        "Pepper Potts",
+        "Avengers",
+        "War Machine"
+      ],
+      "enemigos": [
+        "Mandarín",
+        "Ultron",
+        "Whiplash"
+      ]
+    },
+    {
+      "nombre": "Thor",
+      "nombre_real": "Thor Odinson",
+      "anio_aparicion": 1962,
+      "casa": "Marvel",
+      "biografia": "Thor es el dios del trueno, posee una fuerza y resistencia sobrehumanas y maneja el poderoso martillo Mjolnir que le permite controlar el rayo y volar.",
+      "equipamiento": [
+        "Mjolnir",
+        "Cinturón de fuerza",
+        "Capa asgardiana"
+      ],
+      "logo": "thor_logo.png",
+      "imagenes_carousel": [
+        "static/carousel/thor_1.png",
+        "static/carousel/thor_2.png",
+        "static/carousel/thor_3.png"
+      ],
+      "cantidad_imagenes": 3,
+      "aliados": [
+        "Avengers",
+        "Loki",
+        "Heimdall"
+      ],
+      "enemigos": [
+        "Loki",
+        "Hela",
+        "Surtur"
+      ]
+    },
+    {
+        "nombre": "Hulk",
+        "nombre_real": "Bruce Banner",
+        "anio_aparicion": 1962,
+        "casa": "Marvel",
+        "biografia": "Hulk es un científico que, tras exponerse a radiación gamma, se transforma en un ser de fuerza descomunal cuando se enfurece. Su poder crece proporcionalmente a su ira.",
+        "equipamiento": [],
+        "logo": "hulk_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/hulk_1.png",
+          "static/carousel/hulk_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Avengers",
+          "Betty Ross",
+          "She-Hulk"
+        ],
+        "enemigos": [
+          "Abominación",
+          "General Ross",
+          "Leader"
+        ]
+    },
+    {
+        "nombre": "Black Widow",
+        "nombre_real": "Natasha Romanoff",
+        "anio_aparicion": 1964,
+        "casa": "Marvel",
+        "biografia": "Black Widow es una espía y combatiente experta con habilidades en artes marciales y espionaje. Es una miembro importante de los Avengers.",
+        "equipamiento": [
+          "Traje táctico",
+          "Armas de fuego",
+          "Gadgets tecnológicos"
+        ],
+        "logo": "blackwidow_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/blackwidow_1.png",
+          "static/carousel/blackwidow_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Avengers",
+          "Hawkeye",
+          "Nick Fury"
+        ],
+        "enemigos": [
+          "Taskmaster",
+          "Red Room",
+          "Winter Soldier"
+        ]
+    },
+    {
+        "nombre": "Doctor Strange",
+        "nombre_real": "Stephen Strange",
+        "anio_aparicion": 1963,
+        "casa": "Marvel",
+        "biografia": "Doctor Strange es un antiguo cirujano convertido en Hechicero Supremo, que protege la Tierra de amenazas místicas usando magia y artefactos poderosos.",
+        "equipamiento": [
+          "Capa de levitación",
+          "Ojo de Agamotto",
+          "Libro de los Vishanti"
+        ],
+        "logo": "doctorstrange_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/doctorstrange_1.png",
+          "static/carousel/doctorstrange_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Wong",
+          "Avengers",
+          "Scarlet Witch"
+        ],
+        "enemigos": [
+          "Dormammu",
+          "Kaecilius",
+          "Mordo"
+        ]
+    },
+    {
+        "nombre": "Captain America",
+        "nombre_real": "Steve Rogers",
+        "anio_aparicion": 1941,
+        "casa": "Marvel",
+        "biografia": "Captain America es un supersoldado que luchó en la Segunda Guerra Mundial y es símbolo de patriotismo y justicia. Posee fuerza, agilidad y resistencia mejoradas.",
+        "equipamiento": [
+          "Escudo indestructible",
+          "Traje táctico"
+        ],
+        "logo": "captainamerica_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/captainamerica_1.png",
+          "static/carousel/captainamerica_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Avengers",
+          "Bucky Barnes",
+          "Falcon"
+        ],
+        "enemigos": [
+          "Red Skull",
+          "Baron Zemo",
+          "Hydra"
+        ]
+    },
+    {
+        "nombre": "Black Panther",
+        "nombre_real": "T'Challa",
+        "anio_aparicion": 1966,
+        "casa": "Marvel",
+        "biografia": "Black Panther es el rey y protector de Wakanda, una nación tecnológica avanzada. Posee fuerza y agilidad sobrehumanas y un traje especial de vibranium.",
+        "equipamiento": [
+          "Traje de vibranium",
+          "Garras afiladas"
+        ],
+        "logo": "blackpanther_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/blackpanther_1.png",
+          "static/carousel/blackpanther_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Avengers",
+          "Shuri",
+          "Okoye"
+        ],
+        "enemigos": [
+          "Killmonger",
+          "Ulysses Klaue",
+          "M'Baku"
+        ]
+    },
+    {
+        "nombre": "Captain Marvel",
+        "nombre_real": "Carol Danvers",
+        "anio_aparicion": 1968,
+        "casa": "Marvel",
+        "biografia": "Captain Marvel tiene poderes cósmicos que incluyen vuelo, superfuerza y proyección de energía. Es una de las heroínas más poderosas del universo Marvel.",
+        "equipamiento": [
+          "Poderes cósmicos",
+          "Traje Kree"
+        ],
+        "logo": "captainmarvel_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/captainmarvel_1.png",
+          "static/carousel/captainmarvel_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Avengers",
+          "Nick Fury",
+          "Monica Rambeau"
+        ],
+        "enemigos": [
+          "Yon-Rogg",
+          "Supreme Intelligence",
+          "Ronan"
+        ]
+    },
+    {
+        "nombre": "Wolverine",
+        "nombre_real": "Logan",
+        "anio_aparicion": 1974,
+        "casa": "Marvel",
+        "biografia": "Wolverine es un mutante con factor de curación acelerado, sentidos agudos y garras retráctiles de adamantium. Es miembro de los X-Men y conocido por su naturaleza salvaje y tenacidad.",
+        "equipamiento": [
+          "Garras de adamantium",
+          "Factor de curación"
+        ],
+        "logo": "wolverine_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/wolverine_1.png",
+          "static/carousel/wolverine_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "X-Men",
+          "Profesor X",
+          "Storm"
+        ],
+        "enemigos": [
+          "Sabretooth",
+          "Magneto",
+          "Dientes de Sable"
+        ]
+    },
+    {
+        "nombre": "Deadpool",
+        "nombre_real": "Wade Wilson",
+        "anio_aparicion": 1991,
+        "casa": "Marvel",
+        "biografia": "Deadpool es un mercenario con habilidades regenerativas avanzadas, sentido del humor irreverente y habilidades en combate cuerpo a cuerpo y con armas de fuego.",
+        "equipamiento": [
+          "Espadas",
+          "Pistolas",
+          "Factor de curación"
+        ],
+        "logo": "deadpool_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/deadpool_1.png",
+          "static/carousel/deadpool_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Cable",
+          "Domino",
+          "X-Force"
+        ],
+        "enemigos": [
+          "Ajax",
+          "Taskmaster",
+          "Francis"
+        ]
+    },
+    {
+        "nombre": "Daredevil",
+        "nombre_real": "Matt Murdock",
+        "anio_aparicion": 1964,
+        "casa": "Marvel",
+        "biografia": "Daredevil es un abogado ciego con sentidos superdesarrollados y habilidades en artes marciales, que lucha contra el crimen en Hell's Kitchen, Nueva York.",
+        "equipamiento": [
+          "Bastón de combate",
+          "Traje resistente"
+        ],
+        "logo": "daredevil_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/daredevil_1.png",
+          "static/carousel/daredevil_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Foggy Nelson",
+          "Karen Page",
+          "Punisher"
+        ],
+        "enemigos": [
+          "Kingpin",
+          "Bullseye",
+          "Elektra"
+        ]
+    },
+    {
+        "nombre": "Hawkeye",
+        "nombre_real": "Clint Barton",
+        "anio_aparicion": 1964,
+        "casa": "Marvel",
+        "biografia": "Hawkeye es un arquero experto y miembro de los Avengers, conocido por su puntería infalible y habilidades tácticas.",
+        "equipamiento": [
+          "Arco y flechas",
+          "Flechas explosivas",
+          "Traje táctico"
+        ],
+        "logo": "hawkeye_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/hawkeye_1.png",
+          "static/carousel/hawkeye_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Black Widow",
+          "Avengers",
+          "Kate Bishop"
+        ],
+        "enemigos": [
+          "Crossfire",
+          "Trickshot",
+          "Barón Zemo"
+        ]
+    },
+    {
+        "nombre": "Thor",
+        "nombre_real": "Thor Odinson",
+        "anio_aparicion": 1962,
+        "casa": "Marvel",
+        "biografia": "Thor es el dios del trueno de Asgard, poseedor del poderoso martillo Mjolnir, con el que controla el clima y posee una fuerza divina sobrehumana.",
+        "equipamiento": [
+          "Mjolnir",
+          "Capa de Asgard",
+          "Armadura asgardiana"
+        ],
+        "logo": "thor_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/thor_1.png",
+          "static/carousel/thor_2.png",
+          "static/carousel/thor_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Avengers",
+          "Loki",
+          "Heimdall"
+        ],
+        "enemigos": [
+          "Loki",
+          "Hela",
+          "Surtur"
+        ]
+    },
+    {
+        "nombre": "Spider-Man",
+        "nombre_real": "Peter Parker",
+        "anio_aparicion": 1962,
+        "casa": "Marvel",
+        "biografia": "Peter Parker es un joven con poderes arácnidos tras ser mordido por una araña radioactiva. Posee agilidad, fuerza y un sentido arácnido que le alerta del peligro.",
+        "equipamiento": [
+          "Traje arácnido",
+          "Lanzatelarañas",
+          "Sentido arácnido"
+        ],
+        "logo": "spiderman_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/spiderman_1.png",
+          "static/carousel/spiderman_2.png",
+          "static/carousel/spiderman_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Mary Jane",
+          "Avengers",
+          "Miles Morales"
+        ],
+        "enemigos": [
+          "Green Goblin",
+          "Doctor Octopus",
+          "Venom"
+        ]
+    },
+    {
+        "nombre": "Iron Man",
+        "nombre_real": "Tony Stark",
+        "anio_aparicion": 1963,
+        "casa": "Marvel",
+        "biografia": "Tony Stark es un genio multimillonario, inventor y filántropo que crea un exoesqueleto avanzado para combatir el crimen y proteger al mundo.",
+        "equipamiento": [
+          "Armadura Iron Man",
+          "Tecnología avanzada",
+          "Reactor Arc"
+        ],
+        "logo": "ironman_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/ironman_1.png",
+          "static/carousel/ironman_2.png",
+          "static/carousel/ironman_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Avengers",
+          "Pepper Potts",
+          "War Machine"
+        ],
+        "enemigos": [
+          "Mandarín",
+          "Obadiah Stane",
+          "Whiplash"
+        ]
+    },
+    {
+        "nombre": "Wonder Woman",
+        "nombre_real": "Diana Prince",
+        "anio_aparicion": 1941,
+        "casa": "DC",
+        "biografia": "Diana es una princesa amazona dotada de fuerza, agilidad y poderes divinos. Defiende la justicia y la paz con su lazo de la verdad y su espada.",
+        "equipamiento": [
+          "Lazo de la verdad",
+          "Bracelets",
+          "Espada"
+        ],
+        "logo": "wonderwoman_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/wonderwoman_1.png",
+          "static/carousel/wonderwoman_2.png",
+          "static/carousel/wonderwoman_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Liga de la Justicia",
+          "Steve Trevor",
+          "Batman"
+        ],
+        "enemigos": [
+          "Ares",
+          "Cheetah",
+          "Circe"
+        ]
+    },
+    {
+        "nombre": "Flash",
+        "nombre_real": "Barry Allen",
+        "anio_aparicion": 1956,
+        "casa": "DC",
+        "biografia": "Barry Allen es un científico que obtiene supervelocidad tras un accidente. Usa sus poderes para luchar contra el crimen y proteger Central City.",
+        "equipamiento": [
+          "Traje especial de velocidad",
+          "Anillo con traje"
+        ],
+        "logo": "flash_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/flash_1.png",
+          "static/carousel/flash_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Liga de la Justicia",
+          "Kid Flash",
+          "Iris West"
+        ],
+        "enemigos": [
+          "Reverse Flash",
+          "Gorilla Grodd",
+          "Captain Cold"
+        ]
+    },
+    {
+        "nombre": "Green Lantern",
+        "nombre_real": "Hal Jordan",
+        "anio_aparicion": 1959,
+        "casa": "DC",
+        "biografia": "Hal Jordan es un piloto que recibe un anillo de poder de los Green Lantern Corps, capaz de crear construcciones de luz verde basadas en su voluntad.",
+        "equipamiento": [
+          "Anillo de poder",
+          "Traje Green Lantern"
+        ],
+        "logo": "greenlantern_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/greenlantern_1.png",
+          "static/carousel/greenlantern_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Green Lantern Corps",
+          "Liga de la Justicia",
+          "John Stewart"
+        ],
+        "enemigos": [
+          "Sinestro",
+          "Parallax",
+          "Atrocitus"
+        ]
+    },
+    {
+        "nombre": "Aquaman",
+        "nombre_real": "Arthur Curry",
+        "anio_aparicion": 1941,
+        "casa": "DC",
+        "biografia": "Aquaman es el gobernante de la Atlántida y protector de los océanos de la Tierra. Es un híbrido entre humano y atlante, lo que le otorga habilidades sobrehumanas como fuerza, velocidad y resistencia mejoradas. También posee la capacidad de comunicarse telepáticamente con la vida marina y es un miembro fundador de la Liga de la Justicia.",
+        "equipamiento": [
+          "Tridente de Poseidón",
+          "Armadura atlante",
+          "Capacidad de adaptación acuática",
+          "Telepatía marina"
+        ],
+        "logo": "aquaman_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/aquaman_1.png",
+          "static/carousel/aquaman_2.png",
+          "static/carousel/aquaman_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Mera",
+          "Liga de la Justicia",
+          "Aqualad"
+        ],
+        "enemigos": [
+          "Black Manta",
+          "Amo del Océano",
+          "Lex Luthor"
+        ]
+    },
+    {
+        "nombre": "Batman",
+        "nombre_real": "Bruce Wayne",
+        "anio_aparicion": 1939,
+        "casa": "DC",
+        "biografia": "Batman es el vigilante de Gotham City que utiliza su intelecto, habilidades físicas y un arsenal tecnológico para combatir el crimen y proteger a sus ciudadanos.",
+        "equipamiento": [
+          "Traje de murciélago",
+          "Batimóvil",
+          "Gadgets variados"
+        ],
+        "logo": "batman_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/batman_1.png",
+          "static/carousel/batman_2.png",
+          "static/carousel/batman_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Robin",
+          "Comisionado Gordon",
+          "Liga de la Justicia"
+        ],
+        "enemigos": [
+          "Joker",
+          "Two-Face",
+          "Penguin"
+        ]
+    },
+    {
+        "nombre": "Superman",
+        "nombre_real": "Clark Kent",
+        "anio_aparicion": 1938,
+        "casa": "DC",
+        "biografia": "Superman es un extraterrestre del planeta Krypton con habilidades sobrehumanas, incluyendo vuelo, superfuerza, visión láser y casi invulnerabilidad, que protege la Tierra.",
+        "equipamiento": [],
+        "logo": "superman_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/superman_1.png",
+          "static/carousel/superman_2.png",
+          "static/carousel/superman_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Lois Lane",
+          "Liga de la Justicia",
+          "Batman"
+        ],
+        "enemigos": [
+          "Lex Luthor",
+          "Brainiac",
+          "General Zod"
+        ]
+    },
+    {
+        "nombre": "Green Arrow",
+        "nombre_real": "Oliver Queen",
+        "anio_aparicion": 1941,
+        "casa": "DC",
+        "biografia": "Green Arrow es un arquero experto y millonario que utiliza su habilidad con el arco y flechas especiales para luchar contra el crimen en Star City.",
+        "equipamiento": [
+          "Arco y flechas especiales",
+          "Traje táctico"
+        ],
+        "logo": "greenarrow_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/greenarrow_1.png",
+          "static/carousel/greenarrow_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Black Canary",
+          "Liga de la Justicia",
+          "Speedy"
+        ],
+        "enemigos": [
+          "Merlyn",
+          "Deathstroke",
+          "China White"
+        ]
+    },
+    {
+        "nombre": "Black Panther",
+        "nombre_real": "T'Challa",
+        "anio_aparicion": 1966,
+        "casa": "Marvel",
+        "biografia": "Rey de Wakanda, Black Panther posee habilidades físicas mejoradas gracias a una hierba especial y usa tecnología avanzada de su nación para proteger su pueblo y el mundo.",
+        "equipamiento": [
+          "Traje de Vibranium",
+          "Garras retráctiles",
+          "Tecnología avanzada de Wakanda"
+        ],
+        "logo": "blackpanther_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/blackpanther_1.png",
+          "static/carousel/blackpanther_2.png",
+          "static/carousel/blackpanther_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Avengers",
+          "Shuri",
+          "Okoye"
+        ],
+        "enemigos": [
+          "Killmonger",
+          "Ulysses Klaue",
+          "M’Baku"
+        ]
+    },
+    {
+        "nombre": "Captain America",
+        "nombre_real": "Steve Rogers",
+        "anio_aparicion": 1941,
+        "casa": "Marvel",
+        "biografia": "Un super soldado creado durante la Segunda Guerra Mundial que usa su escudo indestructible para luchar por la justicia y la libertad.",
+        "equipamiento": [
+          "Escudo indestructible",
+          "Traje de combate"
+        ],
+        "logo": "captainamerica_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/captainamerica_1.png",
+          "static/carousel/captainamerica_2.png",
+          "static/carousel/captainamerica_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Avengers",
+          "Bucky Barnes",
+          "Falcon"
+        ],
+        "enemigos": [
+          "Red Skull",
+          "Barón Zemo",
+          "Hydra"
+        ]
+    },
+    {
+        "nombre": "Doctor Strange",
+        "nombre_real": "Stephen Strange",
+        "anio_aparicion": 1963,
+        "casa": "Marvel",
+        "biografia": "Un ex neurocirujano que se convierte en el Hechicero Supremo, protegiendo la Tierra de amenazas mágicas y dimensionales.",
+        "equipamiento": [
+          "Capa de levitación",
+          "Ojo de Agamotto",
+          "Hechizos místicos"
+        ],
+        "logo": "doctorstrange_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/doctorstrange_1.png",
+          "static/carousel/doctorstrange_2.png",
+          "static/carousel/doctorstrange_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Wong",
+          "Avengers",
+          "Scarlet Witch"
+        ],
+        "enemigos": [
+          "Dormammu",
+          "Kaecilius",
+          "Mordo"
+        ]
+    },
+    {
+        "nombre": "Wolverine",
+        "nombre_real": "Logan",
+        "anio_aparicion": 1974,
+        "casa": "Marvel",
+        "biografia": "Un mutante con factor de curación acelerada, garras retráctiles de adamantium y un pasado misterioso y traumático.",
+        "equipamiento": [
+          "Garras de adamantium",
+          "Factor de curación"
+        ],
+        "logo": "wolverine_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/wolverine_1.png",
+          "static/carousel/wolverine_2.png",
+          "static/carousel/wolverine_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "X-Men",
+          "Profesor X",
+          "Storm"
+        ],
+        "enemigos": [
+          "Sabretooth",
+          "Magneto",
+          "Dientes de Sable"
+        ]
+    },
+    {
+        "nombre": "Deadpool",
+        "nombre_real": "Wade Wilson",
+        "anio_aparicion": 1991,
+        "casa": "Marvel",
+        "biografia": "Mercenario con habilidades regenerativas y un humor irreverente, conocido por romper la cuarta pared y ser impredecible en combate.",
+        "equipamiento": [
+          "Katana",
+          "Pistolas",
+          "Factor de curación"
+        ],
+        "logo": "deadpool_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/deadpool_1.png",
+          "static/carousel/deadpool_2.png",
+          "static/carousel/deadpool_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Cable",
+          "X-Force",
+          "Domino"
+        ],
+        "enemigos": [
+          "Ajax",
+          "Taskmaster",
+          "Weasel"
+        ]
+    },
+    {
+        "nombre": "Captain Marvel",
+        "nombre_real": "Carol Danvers",
+        "anio_aparicion": 1968,
+        "casa": "Marvel",
+        "biografia": "Ex piloto de la Fuerza Aérea que obtiene superpoderes tras una explosión alienígena, incluyendo fuerza, vuelo y proyección de energía.",
+        "equipamiento": [
+          "Traje de combate Kree",
+          "Poderes energéticos"
+        ],
+        "logo": "captainmarvel_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/captainmarvel_1.png",
+          "static/carousel/captainmarvel_2.png",
+          "static/carousel/captainmarvel_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Avengers",
+          "Nick Fury",
+          "Maria Rambeau"
+        ],
+        "enemigos": [
+          "Yon-Rogg",
+          "Supreme Intelligence",
+          "Ronan"
+        ]
+    },
+    {
+        "nombre": "Hulk",
+        "nombre_real": "Bruce Banner",
+        "anio_aparicion": 1962,
+        "casa": "Marvel",
+        "biografia": "Científico que se transforma en un gigante verde con fuerza descomunal cuando se enfurece, debido a la exposición a radiación gamma.",
+        "equipamiento": [],
+        "logo": "hulk_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/hulk_1.png",
+          "static/carousel/hulk_2.png",
+          "static/carousel/hulk_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Avengers",
+          "Betty Ross",
+          "Thunderbolt Ross"
+        ],
+        "enemigos": [
+          "Abominación",
+          "Leader",
+          "The Leader"
+        ]
+    },
+    {
+        "nombre": "Scarlet Witch",
+        "nombre_real": "Wanda Maximoff",
+        "anio_aparicion": 1964,
+        "casa": "Marvel",
+        "biografia": "Mutante con habilidades para manipular la realidad, la magia del caos y la energía, lo que la convierte en una de las más poderosas del universo Marvel.",
+        "equipamiento": [
+          "Hechizos mágicos",
+          "Manipulación de energía"
+        ],
+        "logo": "scarletwitch_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/scarletwitch_1.png",
+          "static/carousel/scarletwitch_2.png",
+          "static/carousel/scarletwitch_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Vision",
+          "Avengers",
+          "Doctor Strange"
+        ],
+        "enemigos": [
+          "Agatha Harkness",
+          "Ultron",
+          "Hela"
+        ]
+    },
+    {
+        "nombre": "Black Widow",
+        "nombre_real": "Natasha Romanoff",
+        "anio_aparicion": 1964,
+        "casa": "Marvel",
+        "biografia": "Ex espía rusa y experta en artes marciales que se une a los Avengers para luchar contra amenazas globales.",
+        "equipamiento": [
+          "Traje táctico",
+          "Armas de fuego",
+          "Dispositivos de espionaje"
+        ],
+        "logo": "blackwidow_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/blackwidow_1.png",
+          "static/carousel/blackwidow_2.png",
+          "static/carousel/blackwidow_3.png"
+        ],
+        "cantidad_imagenes": 3,
+        "aliados": [
+          "Avengers",
+          "Hawkeye",
+          "Nick Fury"
+        ],
+        "enemigos": [
+          "Taskmaster",
+          "Red Room",
+          "Whiplash"
+        ]
+    },
+    {
+        "nombre": "Ant-Man",
+        "nombre_real": "Scott Lang",
+        "anio_aparicion": 1979,
+        "casa": "Marvel",
+        "biografia": "Un ex ladrón reformado que usa un traje que le permite cambiar de tamaño y comunicarse con hormigas para combatir el crimen.",
+        "equipamiento": [
+          "Traje de Ant-Man",
+          "Tecnología de reducción de tamaño"
+        ],
+        "logo": "antman_logo.png",
+        "imagenes_carousel": [
+          "static/carousel/antman_1.png",
+          "static/carousel/antman_2.png"
+        ],
+        "cantidad_imagenes": 2,
+        "aliados": [
+          "Avengers",
+          "Hank Pym",
+          "The Wasp"
+        ],
+        "enemigos": [
+          "Yellowjacket",
+          "Ghost",
+          "MODOK"
+        ]
+    }
+]    
+
+    
+  
