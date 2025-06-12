@@ -9,7 +9,7 @@ import shutil
 
 app = FastAPI()
 
-# ✅ CORS para frontend
+# CORS para frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://127.0.0.1:3000", "http://localhost:3000"],
@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ✅ Directorios para archivos estáticos
+# Directorios para las imagenes
 static_dir = os.path.join(os.path.dirname(__file__), "static")
 carousel_dir = os.path.join(static_dir, "carousel")
 os.makedirs(carousel_dir, exist_ok=True)
@@ -26,36 +26,39 @@ os.makedirs(carousel_dir, exist_ok=True)
 app.mount("/static", StaticFiles(directory=static_dir), name="static")
 app.mount("/carousel", StaticFiles(directory=carousel_dir), name="carousel")
 
-# ✅ Cargar datos del JSON si la colección está vacía
+# Cargar datos del JSON si la colección está vacía
 @app.on_event("startup")
 def cargar_datos_si_vacio():
     if superheroes_collection.count_documents({}) == 0:
-        print("🔄 Colección vacía. Cargando datos iniciales...")
+        print("Colección vacía. Cargando datos iniciales...")
         ruta_json = os.path.join(os.path.dirname(__file__), "superheroes.json")
         with open(ruta_json, "r", encoding="utf-8") as f:
             datos = json.load(f)
             superheroes_collection.insert_many(datos)
-        print("✅ Superhéroes cargados correctamente.")
+        print("Superhéroes cargados correctamente.")
     else:
-        print("📂 La colección ya contiene datos. No se cargó nada.")
+        print("La colección ya contiene datos. No se cargó nada.")
 
-# ✅ CRUD Superhéroes
+# rutas para listar Superhéroes
 
 @app.get("/superheroes")
 async def obtener_todos():
     heroes = list(superheroes_collection.find({}, {'_id': 0}))
     return heroes
 
+# rutas para listar los de la casa de marvel
 @app.get("/marvel")
 async def obtener_marvel():
     heroes = list(superheroes_collection.find({"casa": "Marvel"}, {'_id': 0}))
     return heroes
 
+# rutas para listar los de la casa dc
 @app.get("/dc")
 async def obtener_dc():
     heroes = list(superheroes_collection.find({"casa": "DC"}, {'_id': 0}))
     return heroes
 
+# rutas para listar por filtro del nombre
 @app.get("/superheroes/{nombre}")
 async def detalle_heroe(nombre: str):
     heroe = superheroes_collection.find_one({"nombre": nombre}, {'_id': 0})
@@ -64,12 +67,14 @@ async def detalle_heroe(nombre: str):
         return heroe
     return {"error": "Superhéroe no encontrado"}
 
+# ruta para crear un superheroe
 @app.post("/superheroes")
 async def crear_heroe(request: Request):
     nuevo_heroe = await request.json()
     superheroes_collection.insert_one(nuevo_heroe)
     return {"mensaje": "Superhéroe creado con éxito"}
 
+# ruta para editar un superheroe
 @app.put("/superheroes/{nombre}")
 async def actualizar_heroe(nombre: str, request: Request):
     datos = await request.json()
@@ -78,6 +83,7 @@ async def actualizar_heroe(nombre: str, request: Request):
         return {"error": "Superhéroe no encontrado"}
     return {"mensaje": "Superhéroe actualizado con éxito"}
 
+# ruta para eliminar un superheroe
 @app.delete("/superheroes/{nombre}")
 async def eliminar_heroe(nombre: str):
     resultado = superheroes_collection.delete_one({"nombre": nombre})
@@ -85,7 +91,7 @@ async def eliminar_heroe(nombre: str):
         return {"error": "Superhéroe no encontrado"}
     return {"mensaje": "Superhéroe eliminado con éxito"}
 
-# ✅ Subir imagen al servidor
+# Subir imagen al servidor
 @app.post("/superheroes/subir_imagen")
 async def subir_imagen(imagen: UploadFile = File(...)):
     if not imagen.filename:
@@ -101,7 +107,7 @@ async def subir_imagen(imagen: UploadFile = File(...)):
     url_imagen = f"static/carousel/{imagen.filename}"
     return {"mensaje": "Imagen subida correctamente", "url": url_imagen}
 
-# ✅ Asociar imagen al superhéroe
+#Asociar imagen al superhéroe
 @app.put("/superheroes/{nombre}/agregar_imagen")
 async def agregar_imagen(nombre: str, request: Request):
     data = await request.json()
