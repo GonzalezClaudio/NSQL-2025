@@ -76,7 +76,7 @@ export default function AddHero() {
     });
 
     if (response.ok) {
-      setMensaje("✅ Superhéroe agregado con éxito");
+      setMensaje("Superhéroe agregado con éxito");
       setFormData({
         nombre: "",
         nombre_real: "",
@@ -92,7 +92,7 @@ export default function AddHero() {
       });
       setTimeout(() => setMensaje(""), 3000);
     } else {
-      setMensaje("❌ Error al agregar superhéroe");
+      setMensaje("Error al agregar superhéroe");
       setTimeout(() => setMensaje(""), 3000);
     }
   };

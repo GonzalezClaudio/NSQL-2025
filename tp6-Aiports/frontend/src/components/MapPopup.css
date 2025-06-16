@@ -1,0 +1,23 @@
+/* MapPopup.css */
+.popup-content {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  .popup-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #0077cc;
+  }
+  
+  .popup-label {
+    font-weight: bold;
+  }
+  
+  .popup-row {
+    margin-bottom: 4px;
+  }
+  

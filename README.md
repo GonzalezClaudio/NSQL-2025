@@ -134,3 +134,50 @@ docker compose up --build
 - En el campo de búsqueda, escribís el nombre del superhéroe y presionás Enter.
 - Se muestran únicamente los superhéroes cuyo nombre coincide con la búsqueda.
 - Si no se encuentra ninguno, se muestra un mensaje indicándolo.
+
+
+---
+
+## ✈️ TP6 - Airports
+
+Aplicación web que permite:
+
+- Visualizar los aeropuertos en mapa con clustering
+- Al hacer click en un aeropuerto te muestra la     informacion del mismo y le agrega un punto de popularidad 
+- Muestra lo aeropuertos con mas popularidad.
+
+### ⚙️ Tecnologías utilizadas
+
+- **Frontend**: React + libreria Leaflet.js 
+- **Backend**: FastAPI (Python)  
+- **Base de datos**: MongoDB (toda la informacion), redis-geo (almacenar la coordenadas),
+redis-pop (almacenar la popularidad de cada aeropuerto)
+
+### 🚀 Ejecución del programa
+
+Asegurate de tener **Docker** y **Docker Compose** instalados.
+
+#### 1. Clonar el repositorio (si no lo hiciste antes)
+
+```bash
+git clone https://github.com/GonzalezClaudio/NSQL-2025.git
+```
+
+#### 2. Ir a la carpeta tp6-Airports
+
+```bash
+cd NSQL-2025/tp6-Airports
+```
+
+#### 3. Ejecutar con Docker Compose
+
+```bash
+docker compose up --build
+```
+
+### 🧪 Ejemplo de uso
+
+- Se arranca la aplicacion y se carga toda la informacion de los aeropuertos en la base de datos mongo-db, en redis-geo solo las coordenadas de cada aeropuerto por codigo IATA
+- En el home principal se muestra el mapa con todos los puntos de lo aeropuertos.
+- Al realizar click en un punto muestra la informacion del aeropuerto y suma un punto en la base de datos de popularidad.
+- En la pagina de popularidad se listan los 9 aeropuertos mas populares.

@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import '../styles/HeroDetail.css'; // Estilos opcionales
+import '../styles/HeroDetail.css'; 
 
 const HeroDetail = () => {
   const { nombre } = useParams();
   const navigate = useNavigate();
   const [heroe, setHeroe] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [showConfirm, setShowConfirm] = useState(false); // Estado para mostrar el modal
+  const [showConfirm, setShowConfirm] = useState(false); 
 
   useEffect(() => {
     const fetchHeroe = async () => {
@@ -36,13 +36,13 @@ const HeroDetail = () => {
       const data = await response.json();
 
       if (response.ok) {
-        alert('✅ Superhéroe eliminado correctamente');
+        alert('Superhéroe eliminado correctamente');
         navigate('/');
       } else {
-        alert(`❌ Error: ${data.error}`);
+        alert(`Error: ${data.error}`);
       }
     } catch (error) {
-      alert(`❌ Error de red: ${error.message}`);
+      alert(`Error de red: ${error.message}`);
     }
   };
 

@@ -1,0 +1,47 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  redis-geo:
+    image: redis
+    container_name: redis-geo
+    ports:
+      - "6379:6379"
+
+  redis-popularidad:
+    image: redis
+    container_name: redis-pop
+    ports:
+      - "6380:6379"  # puerto interno 6379, expuesto como 6380
+
+  backend:
+    build: ./backend
+    container_name: backend
+    depends_on:
+      - mongo
+      - redis-geo
+      - redis-popularidad
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/data_trasport.json:/app/data_trasport.json
+
+
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:
